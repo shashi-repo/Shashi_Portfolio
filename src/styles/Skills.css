@@ -1,0 +1,97 @@
+.skills{
+    background:#f8fafc;
+}
+
+.skills-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:25px;
+}
+
+.skill-card{
+    background:white;
+    padding:35px 20px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    transition:.3s;
+    cursor:pointer;
+}
+
+.skill-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 35px rgba(37,99,235,.15);
+}
+
+.skill-icon{
+    font-size:55px;
+    margin-bottom:15px;
+}
+
+.skill-card h4{
+    font-size:20px;
+    margin-top:10px;
+}
+
+.html{
+    color:#E34F26;
+}
+
+.css{
+    color:#1572B6;
+}
+
+.bootstrap{
+    color:#7952B3;
+}
+
+.js{
+    color:#F7DF1E;
+}
+
+.react{
+    color:#61DAFB;
+}
+
+.node{
+    color:#339933;
+}
+
+.express{
+    color:#000;
+}
+
+.mysql{
+    color:#00758F;
+}
+
+.php{
+    color:#777BB4;
+}
+
+.java{
+    color:#f89820;
+}
+
+.git{
+    color:#F05032;
+}
+
+.github{
+    color:#181717;
+}
+
+.postman{
+    color:#FF6C37;
+}
+
+.vscode{
+    color:#007ACC;
+}
+.c{
+    color:#00599C;
+}
+
+.cpp{
+    color:#004482;
+}
